@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding: 30px;
+  min-height: 100%;
+  
+
+}
+
+// 
+
+.title,
+.subtitle {
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+}
+
+.subtitle {
+  font-size: 36px;
+}
+
+.image-slider {
+  padding: 30px 0 70px 0;
+
+  &__image {
+    text-align: center;
+    max-width: 500px;
+
+    & img {
+      max-width: 100%;
+    }
+  }
+}
+
+// slider basics
+
+.fliper {
+
+  &-container {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  &-wrapper {
+    display: flex;
+    // overflow-x: hidden;
+
+
+  }
+
+  &-slide {
+    // min-width: 400px;
+  }
+
+  // prev next btns
+  &-button-prev,
+  &-button-next {
+    cursor: pointer;
+    border: solid 1px gray;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+
+  }
+
+  &-button-prev {
+
+  }
+
+  &-button-next {
+
+  }
+
+  // pagination
+  &-pagination {
+
+  }
+
+  // scrollbar
+
+  &-scrollbar {
+
+  }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>my Slider</title>
+	<meta name="description" content="Gulp Boilerplate">
+	<!--Favicons BEGIN-->
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+	<!--Favicons END-->
+	<link href="styles/index.css" rel="stylesheet" type="text/css" media="all">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<h1 class="title">Hello world! :)</h1>
+		<h2 class="subtitle">Slider</h2>
+
+		<!-- головний контейнер слайдера -->
+		<div class="image-slider fliper-container">
+			<!-- оболонка -->
+			<div class="image-slider__wrapper fliper-wrapper">
+				<!-- слайди -->
+
+				<div class="image-slider__slide fliper-slide">
+					<div class="image-slider__image">
+						<img src="assets/images/slider/me1.jpg" alt="">
+					</div>
+				</div>
+				<div class="image-slider__slide fliper-slide">
+					<div class="image-slider__image">
+						<img src="assets/images/slider/cat.jpg" alt="">
+					</div>
+				</div>
+				<div class="image-slider__slide fliper-slide">
+					<div class="image-slider__image">
+						<img src="assets/images/slider/dog1.jpg" alt="">
+					</div>
+				</div>
+				<div class="image-slider__slide fliper-slide">
+					<div class="image-slider__image">
+						<img src="assets/images/slider/man.jpg" alt="">
+					</div>
+				</div>
+
+				<div class="image-slider__slide fliper-slide" id="last-slide">
+					<div class="image-slider__image">
+						<img src="assets/images/slider/dog.jpg" alt="">
+					</div>
+				</div>
+
+				<div class="image-slider__slide fliper-slide">
+					<div class="image-slider__image">
+						<img src="assets/images/slider/giraf.jpg" alt="">
+					</div>
+				</div>
+
+				<div class="image-slider__slide fliper-slide">
+					<div class="image-slider__image">
+						<img src="assets/images/slider/dog2.jpg" alt="">
+					</div>
+				</div>
+
+
+
+			</div>
+			<!-- стрілки -->
+			<div class="fliper-button-prev">prev</div>
+			<div class="fliper-button-next">next</div>
+
+			<!-- пагінація -->
+			<div class="fliper-pagination"></div>
+
+			<!-- scrollbar -->
+			<div class="fliper-scrollbar"></div>
+		</div>
+	</div>
+
+	<script src="./js/index.js"></script>
+</body>
+
+
+
+
+</html>
